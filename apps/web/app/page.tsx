@@ -1,9 +1,9 @@
-import Image from "next/image";
-import { Button } from "@repo/ui/button";
-import styles from "./page.module.css";
+import { Loader } from "@repo/ui/Loader";
 
 export default function Home() {
   return (
-    <div></div>
+    <div>
+      <Loader title="Loader" description="Please wait for a minute..." />
+    </div>
   );
 }
