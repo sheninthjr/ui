@@ -1,4 +1,4 @@
-import { Loader } from "@repo/ui/Loader";
+import { Loader } from '@repo/ui/Loader';
 
 export default function Home() {
   return (
