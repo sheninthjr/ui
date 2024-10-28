@@ -3,10 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./button": "./src/button.tsx",
-    "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx",
-    "./Loader": "./src/Loader.tsx"
+    "./Loader": "./src/Loader.tsx",
+    "./Toaster":"./src/Toaster.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",

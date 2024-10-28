@@ -11,6 +11,9 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Noto Sans',"sans-serif"]
+      },
+      height: {
+        '30': '118px'
       }
     },
   },
