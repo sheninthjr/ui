@@ -32,7 +32,9 @@ export function Toaster({
         </div>
         <div className="my-2 border-b border-neutral-600" />
       </div>
-      <div className="mt-2 line-clamp-2 text-sm text-neutral-200">{description}</div>
+      <div className="mt-2 line-clamp-2 text-sm text-neutral-200">
+        {description}
+      </div>
     </div>
   );
 }
